@@ -12,7 +12,7 @@ This is the development branch to which contributions should be proposed by cont
 
 ### From GitHub source code
 
-To manually install the module, download the source code from GitHub and unzip the contents to the '$env:ProgramFiles\WindowsPowerShell\Modules' folder.
+To manually install the module, download the source code from GitHub and unzip the contents to the `$env:ProgramFiles\WindowsPowerShell\Modules` folder.
 
 ### From PowerShell Gallery
 
@@ -30,10 +30,10 @@ Get-Command -Module PSCredentialTools
 
 ## Commands
 
-- [**ConvertFrom-FIPSSecureString**](.\docs\ConvertFrom-FIPSSecureString.md): Converts a PowerShell SecureString object into encypted text, using a pre-shared-key. It uses the FIPS compliant AES Crypto Provider.
-- [**ConvertFrom-PKISecureString**](.\docs\ConvertFrom-PKISecureString.md): Converts a PowerShell SecureString object into encrypted text using a provided certificate's Public Key
-- [**ConvertTo-FIPSSecureString**](.\docs\ConvertTo-FIPSSecureString.md): Converts a previously encrypted SecureString with a pre-shared-key back into a PowerShell SecureString object.
-- [**ConvertTo-PKISecureString**](.\docs\ConvertTo-PKISecureString.md): Converts a previously encrypted SecureString back into a PowerShell SecureString object using the provided certificate's Private Key
-- [**Export-PSCredential**](.\docs\Export-PSCredential.md): encrypts and saves a PowerShell Credential object to file or to Azure KeyVault
-- [**Import-PSCredential**](.\docs\Import-PSCredential.md): decrypts a previously saved Credential back into a PowerShell Credential object
-- [**New-PSCredential**](.\docs\New-PSCredential.md): creates new PowerShell credential object, with a random strong password, and saves it to an encrypted file or to Azure KeyVault
+- [**ConvertFrom-FIPSSecureString**](.\docs\ConvertFrom-FIPSSecureString.md) converts a PowerShell SecureString object into encypted text, using a pre-shared-key. It uses the FIPS compliant AES Crypto Provider.
+- [**ConvertFrom-PKISecureString**](.\docs\ConvertFrom-PKISecureString.md) converts a PowerShell SecureString object into encrypted text using a provided certificate's Public Key.
+- [**ConvertTo-FIPSSecureString**](.\docs\ConvertTo-FIPSSecureString.md) converts a previously encrypted SecureString with a pre-shared-key back into a PowerShell SecureString object.
+- [**ConvertTo-PKISecureString**](.\docs\ConvertTo-PKISecureString.md) converts a previously encrypted SecureString back into a PowerShell SecureString object using the provided certificate's Private Key.
+- [**Export-PSCredential**](.\docs\Export-PSCredential.md) encrypts and saves a PowerShell Credential object to file or to Azure KeyVault.
+- [**Import-PSCredential**](.\docs\Import-PSCredential.md) decrypts a previously saved Credential back into a PowerShell Credential object.
+- [**New-PSCredential**](.\docs\New-PSCredential.md) creates new PowerShell credential object, with a random strong password, and saves it to an encrypted file or to Azure KeyVault.
